@@ -6,5 +6,4 @@ int main(int argc, char *argv[])
 { 
   setreuid(getuid(), 0);
   system("/bin/bash");
-  return 0;
 }
